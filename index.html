@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Transportation Survey</title>
+</head>
+<body>
+  <div class="container">
+    <form id="transportation-survey">
+      <div class="form-group">
+        <p>In the past year, which forms of transportation have you used to get to work?</p>
+        <input type="checkbox" name="work-transportation" value="Bike"> Riding a bike.<br>
+        <input type="checkbox" name="work-transportation" value="Car"> Driving a car.<br>
+        <input type="checkbox" name="work-transportation" value="Carpool"> Carpooling with others.<br>
+        <input type="checkbox" name="work-transportation" value="Walk"> Walking.<br>
+        <input type="checkbox" name="work-transportation" value="Other Form"> Another form not listed. <br>
+
+        <br>
+        <p>In the past year, which forms of transportation have you used to travel to other activities?</p>
+        <input type="checkbox" name="other-transportation" value="Bike"> Riding a bike.<br>
+        <input type="checkbox" name="other-transportation" value="Car"> Driving a car.<br>
+        <input type="checkbox" name="other-transportation" value="Carpool"> Carpooling with others.<br>
+        <input type="checkbox" name="other-transportation" value="Walk"> Walking.<br>
+        <input type="checkbox" name="other-transportation" value="Other Form"> Another form not listed. <br>
+        <br>
+
+      </div>
+      <input type="submit" id="btn" value="Submit">
+    </form>
+    <br>
+    <div id="responses">
+      <p><b>You use the following methods of transportation to travel to work/school:</b></p>
+      <ul id="work-responses">
+        
+      </ul>
+      <br>
+      <p><b>You use the following methods of transportation to travel to other activities:</b></p>
+      <ul id="other-responses">
+        
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
